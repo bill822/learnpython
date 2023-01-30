@@ -7,3 +7,9 @@ x1 = list1[1]       #2
 x2 = lsit2[1][0]    #'cat'
 y1 = list1[1:3]     #[2,'cat']
 y2 = list1[3:]      #['rat',4,5,3,2]
+#列表长度，列表串接
+list3 = [1,2,3,4,5]
+len(list3)          #5
+list4 = list1+list3 #串接
+b1 = 'cat' in list1 #Ture,是否包含在列表中
+b2 = 'cat' not in list1  #not in,False
